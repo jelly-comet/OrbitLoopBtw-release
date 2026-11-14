@@ -3,7 +3,7 @@
 **One loop played four ways at once, half speed, reversed, stuttered and braked like a tape, and
 one puck that blends them.**
 
-Version 1.0.1. To install it, see the [README](README.md).
+Version 1.0.1. To install it, see the [install steps](README.md#install).
 
 ## Contents
 
