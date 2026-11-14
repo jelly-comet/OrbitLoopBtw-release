@@ -6,6 +6,8 @@ Linux.
 
 ![OrbitLoopBtw on a loop of music: the REVERSE page, the puck between HALF and REVERSE on a small orbit](images/screenshot.png)
 
+**[OrbitLoopBtw on jelly-comet.github.io](https://jelly-comet.github.io/plugins/orbitloopbtw/)**: more screenshots, the manual to read or as a PDF, and every release.
+
 OrbitLoopBtw listens to what plays and loops it four ways at the same time: HALF plays it at half
 speed, REVERSE plays each beat backward, STUTTER repeats the end of the loop in ever shorter
 slices, and STOP brakes it like a tape machine switched off. Each effect sits in a corner of a pad,
@@ -16,6 +18,13 @@ isn't being cut plays as it comes in. It is not a sampler or a looper you record
 plays the last loop of what comes in.
 
 **[Read the manual](manual.md)** for every control and how to use it.
+
+## What it's for
+
+- **Fills:** a stutter at the end of the loop, a beat repeat in slices from 1/4 down to 1/64.
+- **Transitions and breakdowns:** drop a part to half-time, or play its beats in reverse.
+- **Endings:** a tape stop that brakes the music like a tape machine switched off.
+- **Glitch effects that move:** throw the puck and half speed, reverse, stutter and tape stop take turns, in time with the song.
 
 ## Features
 
@@ -81,7 +90,7 @@ them gone.
 
 - Linux x86-64 on a CPU with AVX2 (Intel Core from 2013, AMD from 2015), with glibc 2.31 or newer
   (Ubuntu 20.04, Debian 11, Fedora 32 and newer)
-- A CLAP host
+- A CLAP host. Tried in Bitwig Studio and REAPER.
 - X11 or XWayland, and a Vulkan driver for the editor
 
 Releases contain the CLAP plugin only.
