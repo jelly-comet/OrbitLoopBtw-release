@@ -3,7 +3,7 @@
 **One loop played four ways at once, half speed, reversed, stuttered and braked like a tape, and
 one puck that blends them.**
 
-Version 1.0.0. To install it, see the [README](README.md).
+Version 1.0.1. To install it, see the [README](README.md).
 
 ## Contents
 
@@ -206,4 +206,4 @@ A line a file doesn't have leaves its setting alone, so a preset can set only a 
   name. The list is read when the editor opens and after a save.
 - **The window stays black:** the editor needs a Vulkan driver (`vulkaninfo` should list your
   GPU).
-- **It doesn't load:** the plugin needs a CPU with SSE4.1 and glibc 2.31 or newer.
+- **It doesn't load:** the plugin needs a CPU with AVX2 (Intel Core from 2013, AMD from 2015) and glibc 2.31 or newer.

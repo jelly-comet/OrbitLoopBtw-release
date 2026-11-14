@@ -45,10 +45,10 @@ Download the latest version from the [Releases page](https://github.com/jelly-co
 or with these commands:
 
 ```bash
-curl -LO https://github.com/jelly-comet/OrbitLoopBtw-release/releases/download/v1.0.0/OrbitLoopBtw-1.0.0-linux-x86_64.tar.gz
-curl -LO https://github.com/jelly-comet/OrbitLoopBtw-release/releases/download/v1.0.0/OrbitLoopBtw-1.0.0-linux-x86_64.tar.gz.sha256
-sha256sum -c OrbitLoopBtw-1.0.0-linux-x86_64.tar.gz.sha256 && tar xzf OrbitLoopBtw-1.0.0-linux-x86_64.tar.gz
-cd OrbitLoopBtw-1.0.0-linux-x86_64
+curl -LO https://github.com/jelly-comet/OrbitLoopBtw-release/releases/download/v1.0.1/OrbitLoopBtw-1.0.1-linux-x86_64.tar.gz
+curl -LO https://github.com/jelly-comet/OrbitLoopBtw-release/releases/download/v1.0.1/OrbitLoopBtw-1.0.1-linux-x86_64.tar.gz.sha256
+sha256sum -c OrbitLoopBtw-1.0.1-linux-x86_64.tar.gz.sha256 && tar xzf OrbitLoopBtw-1.0.1-linux-x86_64.tar.gz
+cd OrbitLoopBtw-1.0.1-linux-x86_64
 ```
 
 Install for your user:
@@ -79,8 +79,8 @@ them gone.
 
 ## Requirements
 
-- Linux x86-64 with glibc 2.31 or newer (Ubuntu 20.04, Debian 11, Fedora 32 and newer), on a CPU
-  with SSE4.1 (Intel from 2008, AMD from 2011)
+- Linux x86-64 on a CPU with AVX2 (Intel Core from 2013, AMD from 2015), with glibc 2.31 or newer
+  (Ubuntu 20.04, Debian 11, Fedora 32 and newer)
 - A CLAP host
 - X11 or XWayland, and a Vulkan driver for the editor
 
